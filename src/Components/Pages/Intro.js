@@ -13,7 +13,7 @@ const Intro = () => {
         <div class="hero-content flex-col lg:flex-row-reverse ">
      <div className="">
 
-     <h1 className='w-56 h-16 ml-96 rounded-3xl flex items-center bg-warning justify-center px-5 py-3 '><img className='w-10' src={crown} alt="" /><span className='text-white ml-7 font-bold'>MERN developer </span> </h1>
+     <h1 className='w-56 h-16 ml-24 rounded-3xl flex items-center bg-warning justify-center px-5 py-3 '><img className='w-10' src={crown} alt="" /><span className='text-white ml-7 font-bold'>MERN developer </span> </h1>
           <img  src={profile}  style={{width:'1100px'}} />
         
           </div>
