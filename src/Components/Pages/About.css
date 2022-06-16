@@ -1,5 +1,6 @@
 .about-banner{
-    background-image: url(../../Assets/img/about-bg.png);
+    background-image: url(../../Assets/img/about-bg.jpg);
     background-size: cover;
-    height: 700px;
+    width: 100%;
+    height: 1200px;
 }
