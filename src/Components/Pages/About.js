@@ -20,26 +20,24 @@ import firebase from '../../Assets/img/firebase.png'
 import node from '../../Assets/img/node.png'
 import express from '../../Assets/img/express.png'
 import mongo from '../../Assets/img/mongo.png'
-
-import './About.css'
+import bg from '../../Assets/img/about-bg.jpg'
 
 const About = () => {
     return (
-        <div className='about-banner bg-cover mt-14'>
-         <div className="">
+        <div style={{
+            background:`url(${bg})`,
+            backgroundSize:'cover'
+        }} className='about-banner bg-cover mt-14'>
          <h1 className='text-5xl font-bold text-warning'><div class="avatar px-10 mt-10">
             <div class="w-24 ml-20  rounded-full ring ring-warning ring-offset-base-100 ring-offset-2">
-            <img src={about} />
+            <img src={about} alt='' />
             </div>
          </div></h1>
-         </div>
-         <div className=" px-32">
+         <div className="px-32">
             <p className='font-bold text-warning my-4'>HERE'S MY</p>
             <h1 className='text-4xl font-bold'>EDUCATION, WORK EXPERIENCE AND SOME SKILLS.</h1>
-            <p className='font-bold my-4'>Assalamualaikum My name is Abir Rahaman.student of CSE Department at Daffodil International University. i have completed his SSC & HSC from Dhaka Board. <br /> now i am working on web development sector. i am not profesional but he love love to do it with enjoyment.My hobby is i want to travel the the <br /> whole world i have already visited many place of Bangladesh, and at the end of my life goal as a human being i want to lead my life very simple as a muslim.</p>
             <p className='font-bold my-4'>Expertise in front-end technologies, including Html5, CSS3, JavaScript(Intermidiate),Typescript and libraries such as  React Js, Bootstrap5, Tailwind, DaisyUI .<br />Knowledge   of server-side  programming languages  including MongoDB, Node Js, Express Js.I'm mostly interested in developing responsive full-stack web applications. <br /> Please see my resume for further information.</p>
-            <div className="lg:flex">
-                <div className="">
+            <div className="lg:flex ">
                 <div className="">
                 <div className="flex items-center">
                 <img className='ring p-2 rounded-full ring-warning ring-offset-base-100 ring-offset-2' src={schhol} alt=""/>
@@ -102,11 +100,11 @@ const About = () => {
                        </div>      
                 </div>
                 </div>
-                </div>
-                <div className="ml-28">
+              
+                <div className="ml-28 lg:mt-24  ">
                     <h1 className='text-4xl text-warning font-bold text-left md:text-center lg:mt-0 mt-20 mb-10'>My Skills</h1>
                     <p className='text-2xl mb-12 text-center'> These Are Technologies I'he worked with</p>
-                    <div className="grid lg:grid-cols-4 gap-10 sm:grid-cols-2">
+                    <div className="grid lg:grid-cols-4 gap-10 grid-cols-2 ">
                     <div class="radial-progress text-orange-600 hover:scale-150 duration-500 cursor-pointer" style={{'--value':90, '--size':'8rem' ,'--thickness': '10px'}}>  <img className='w-12' src={html} alt="" /> <span className='text-xs font-bold mt-2'>HTML 90%</span> </div> 
                     <div class="radial-progress text-sky-500 hover:scale-150 duration-500 cursor-pointer" style={{'--value':80, '--size':'8rem' ,'--thickness': '10px'}}>  <img className='w-12' src={css} alt="" /> <span className='text-xs font-bold mt-2'>CSS 80%</span> </div> 
                     <div class="radial-progress text-indigo-500 hover:scale-150 duration-500 cursor-pointer" style={{'--value':90, '--size':'8rem' ,'--thickness': '10px'}}>  <img className='w-16 ml-1' src={bs} alt="" /> <span className='text-xs font-bold mt-1'>Bootstrap 80%</span> </div> 
