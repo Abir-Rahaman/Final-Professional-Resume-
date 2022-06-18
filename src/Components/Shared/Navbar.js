@@ -7,7 +7,6 @@ const Navbar = () => {
             <div className="n-left">
                 <div className="n-logo flex cursor-pointer">
                      <img src={logo} alt="" />
-                     <span>toggle</span>
                 </div>
             </div>
             <div className="n-right flex">

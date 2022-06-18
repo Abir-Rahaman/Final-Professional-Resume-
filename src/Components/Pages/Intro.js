@@ -2,14 +2,13 @@ import React from 'react';
 import git from '../../Assets/img/github.png'
 import linkedin from '../../Assets/img/linkedin.png'
 import insta from '../../Assets/img/instagram.png'
-import bg1 from '../../Assets/img/Vector1.png'
-import bg2 from '../../Assets/img/Vector2.png'
+
 import profile from '../../Assets/img/profile.png'
 import crown from '../../Assets/img/crown.png'
 
 const Intro = () => {
     return (
-        <div class="hero mt-16">
+        <div  class="hero mt-16">
         <div class="hero-content flex-col lg:flex-row-reverse ">
      <div className="">
 

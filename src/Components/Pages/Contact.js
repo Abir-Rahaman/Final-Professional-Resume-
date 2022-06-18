@@ -11,7 +11,7 @@ const Contact = () => {
         <div class="hero pb-24 mt-24">
             <div style={{
             background:`url(${bg})`,
-        }}  class="hero-content flex-col lg:flex-row-reverse py-20 md:px-36 shadow-2xl ">
+        }}  class="hero-content flex-col lg:flex-row-reverse py-20 shadow-2xl ">
                 <div class="card lg:w-screen rounded-2xl">
                         <div class="card-body md:w-full">
                            <form method='POST' action="https://getform.io/f/7067b325-0165-4120-8a11-ee011c81044d">
