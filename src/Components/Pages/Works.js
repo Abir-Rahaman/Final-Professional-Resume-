@@ -37,9 +37,9 @@ const Works = () => {
         <div style={{
             background:`url(${bg})`,
             backgroundSize:'cover'
-        }} name='project' className='' >
-            <h3 className='text-4xl text-[#95bbd4] text-center font-bold mt-28' > Checkout Some Of My Recent Work... </h3>
-           <div className="lg:px-32 px-8">
+        }} name='project' className='mt-20' >
+            <h3 className='text-4xl text-white text-center font-bold pt-10' > Checkout Some Of My Recent Work... </h3>
+           <div className="lg:px-32 px-8 py-20">
            <div className="grid lg:grid-cols-3 grid-cols-1 gap-20">
             <div class="card lg:w-96  bg-base-100 shadow-xl ">
                 <div class="card-body">
@@ -93,7 +93,7 @@ const Works = () => {
                 
                 </div>
                 </div>
-                <figure><img className='w-fluid rounded-3xl hover:scale-110 duration-500 mt-6 '  src={com} alt="Shoes"  />
+                <figure><img className='w-fluid rounded-3xl hover:scale-110 duration-500 mt-6  '  src={com} alt="Shoes"  />
                 </figure>
                 </div>
             </div>

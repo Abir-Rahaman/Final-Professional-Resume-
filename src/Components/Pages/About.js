@@ -28,41 +28,41 @@ const About = () => {
             background:`url(${bg})`,
             backgroundSize:'cover'
         }} className='about-banner bg-cover mt-14 sm:pl-8 md:pl-8'>
-         <h1 className='text-5xl font-bold text-warning'><div class="avatar px-10 mt-10">
-            <div class="w-24 lg:ml-20  rounded-full ring ring-warning ring-offset-base-100 ring-offset-2">
+         <h1 className='text-5xl font-bold text-primary'><div class="avatar px-10 mt-10">
+            <div class="w-24 lg:ml-20  rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
             <img src={about} alt='' />
             </div>
          </div></h1>
          <div className="lg:px-32 p-8">
-            <p className='font-bold text-warning my-4'>HERE'S MY</p>
+            <p className='font-bold text-primary my-4'>HERE'S MY</p>
             <h1 className='text-4xl font-bold'>EDUCATION, WORK EXPERIENCE AND SOME SKILLS.</h1>
             <p className='font-bold my-4'>Expertise in front-end technologies, including Html5, CSS3, JavaScript(Intermidiate),Typescript and libraries such as  React Js, Bootstrap5, Tailwind, DaisyUI .<br />Knowledge   of server-side  programming languages  including MongoDB, Node Js, Express Js.I'm mostly interested in developing responsive full-stack web applications. <br /> Please see my resume for further information.</p>
             <div className="lg:flex ">
                 <div className="">
                 <div className="flex items-center">
-                <img className='ring p-2 rounded-full ring-warning ring-offset-base-100 ring-offset-2' src={schhol} alt=""/>
-                <h3 className=' font-bold text-2xl text-warning ml-6'>Educational Qualification</h3>
+                <img className='ring p-2 rounded-full ring-primary ring-offset-base-100 ring-offset-2' src={schhol} alt=""/>
+                <h3 className=' font-bold text-2xl text-primary ml-6'>Educational Qualification</h3>
                 </div>
-                <div className="lg:ml-20 ml-12">
+                <div className="lg:ml-20 ml-12 my-6">
                 <h3 className='font-bold'>2019-2022</h3>
                 <p className=' font-bold'>B.Sc in CSE</p>
                 <p className=' font-bold' >Daffodil International University</p>
                 </div>
                 <div className="flex items-center">
-                <img className='ring p-2 rounded-full ring-warning ring-offset-base-100 ring-offset-2' src={man} alt=""/>
-                <h3 className=' font-bold text-2xl text-warning ml-6'>Personal Information</h3>
+                <img className='ring p-2 rounded-full ring-primary ring-offset-base-100 ring-offset-2' src={man} alt=""/>
+                <h3 className=' font-bold text-2xl text-primary ml-6'>Personal Information</h3>
                 </div>
-                <div className="lg:ml-20 ml-12">
+                <div className="lg:ml-20 ml-12 my-6">
                 <p className=' font-bold'>Name : Md. Abir Rahaman</p>
                 <p className=' font-bold' >Age : 22</p>
                 <p className=' font-bold' >Height : 5'11</p>
                 <p className=' font-bold' >Date Of Birth: 1 feb 1999</p>
                 </div>
                 <div className="flex items-center">
-                <img className='ring p-2 rounded-full ring-warning ring-offset-base-100 ring-offset-2' src={call} alt=""/>
-                <h3 className=' font-bold text-2xl text-warning ml-6'>Contact Information</h3>
+                <img className='ring p-2 rounded-full ring-primary ring-offset-base-100 ring-offset-2' src={call} alt=""/>
+                <h3 className=' font-bold text-2xl text-primary ml-6'>Contact Information</h3>
                 </div>
-                <div className="lg:ml-20 ml-12">
+                <div className="lg:ml-20 ml-12 my-6">
                 <p className=' font-bold'>Email : abirahaman.cse@gmail.com</p>
                 <p className=' font-bold' >Phone : +8801864943403</p>
                 <p className=' font-bold'> Present Location : Ashulia Savar,Dhaka </p>
@@ -70,40 +70,40 @@ const About = () => {
                
                 </div>
                 <div className="flex items-center">
-                <img className='ring p-2 rounded-full ring-warning ring-offset-base-100 ring-offset-2' src={hike} alt=""/>
-                <h3 className=' font-bold text-2xl text-warning ml-6'>Interest</h3>
+                <img className='ring p-2 rounded-full ring-primary ring-offset-base-100 ring-offset-2' src={hike} alt=""/>
+                <h3 className=' font-bold text-2xl text-primary ml-6'>Interest</h3>
                 </div>
-                <div className="lg:ml-20 gap-8 grid lg:grid-cols-3 grid-cols-2 lg:px-0 px-10">
+                <div className="lg:ml-20 gap-20 grid lg:grid-cols-3 grid-cols-2 lg:px-0 px-10">
                        <div className="">
                        <img className='mt-8' src={web} alt="" />
-                        <h5 className='text-warning mt-3 text-2xl font-bold'>Technologies</h5>
+                        <h5 className='text-primary mt-3 text-2xl font-bold'>Technologies</h5>
                        </div>
                        <div className="">
                        <img className='mt-8' src={eat} alt="" />
-                        <h5 className='text-warning mt-3 text-2xl font-bold'> Street Food</h5>
+                        <h5 className='text-primary mt-3 text-2xl font-bold'> Street Food</h5>
                        </div>
                        <div className="">
                        <img className='mt-8' src={holy} alt="" />
-                        <h5 className='text-warning mt-3 text-2xl font-bold'> Traveling</h5>
+                        <h5 className='text-primary mt-3 text-2xl font-bold'> Traveling</h5>
                        </div>
                        <div className="">
                        <img className='mt-8' src={click} alt="" />
-                        <h5 className='text-warning mt-3 text-2xl font-bold'> Photography</h5>
+                        <h5 className='text-primary mt-3 text-2xl font-bold'> Photography</h5>
                        </div>
                        <div className="">
                        <img className='mt-8' src={relax} alt="" />
-                        <h5 className='text-warning mt-3 text-2xl font-bold'> Explore Gadget</h5>
+                        <h5 className='text-primary mt-3 text-2xl font-bold'> Explore Gadget</h5>
                        </div>
                        <div className="">
                        <img className='mt-8' src={meditation} alt="" />
-                        <h5 className='text-warning mt-3 text-2xl font-bold'> Meditation</h5>
+                        <h5 className='text-primary mt-3 text-2xl font-bold'> Meditation</h5>
                        </div>      
                 </div>
                 </div>
               
                 <div className="lg:ml-28 lg:mt-24 lg:px-0 px-5 ">
-                    <h1 className='text-4xl text-warning font-bold text-left md:text-center lg:mt-0 mt-20 mb-10'>My Skills</h1>
-                    <p className='text-2xl lg:mb-12 text-center'> These Are Technologies I'he worked with</p>
+                    <h1 className='text-4xl text-primary font-bold  text-center lg:mt-0 mt-20 mb-10'>My Skills</h1>
+                    <p className='text-2xl mb-12 text-center '> These Are Technologies I'he worked with</p>
                     <div className="grid lg:grid-cols-4 gap-10 grid-cols-2 ">
                     <div class="radial-progress text-orange-600 hover:scale-150 duration-500 cursor-pointer" style={{'--value':90, '--size':'8rem' ,'--thickness': '10px'}}>  <img className='w-12' src={html} alt="" /> <span className='text-xs font-bold mt-2'>HTML 90%</span> </div> 
                     <div class="radial-progress text-sky-500 hover:scale-150 duration-500 cursor-pointer" style={{'--value':80, '--size':'8rem' ,'--thickness': '10px'}}>  <img className='w-12' src={css} alt="" /> <span className='text-xs font-bold mt-2'>CSS 80%</span> </div> 

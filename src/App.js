@@ -18,8 +18,8 @@ function App() {
       <Intro></Intro>
       <About></About>
       <Works></Works>
-      {/* <Contact></Contact> */}
-      {/* <Footer></Footer> */}
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

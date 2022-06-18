@@ -6,7 +6,7 @@ const Footer = () => {
         <footer style={{
             background:`url(${bg})`,
             backgroundSize:'cover'
-        }} class="footer p-20 bg-base-200 text-base-content px-56 shadow-2xl">
+        }} class="footer px-8 py-16  lg:p-20 bg-base-200 text-base-content lg:px-56 shadow-2xl">
         <div>
           <span class="footer-title">Services</span> 
           <a class="link link-hover">Branding</a> 
@@ -33,9 +33,9 @@ const Footer = () => {
             <label class="label">
               <span class="label-text">Enter your email address</span>
             </label> 
-            <div class="relative">
+            <div class="relative lg:w-full">
               <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
-              <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+              <button class="btn btn-primary  absolute top-0 right-0 rounded-l-none">Subscribe</button>
             </div>
           </div>
         </div>
