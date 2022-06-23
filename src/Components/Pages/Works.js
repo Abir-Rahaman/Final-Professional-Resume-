@@ -37,12 +37,12 @@ const Works = () => {
         <div style={{
             background:`url(${bg})`,
             backgroundSize:'cover'
-        }} name='project' className='mt-20' >
-            <h3 className='text-4xl text-white text-center font-bold pt-10' > Checkout Some Of My Recent Work... </h3>
-           <div className="lg:px-32 px-8 py-20">
-           <div className="grid lg:grid-cols-3 grid-cols-1 gap-20">
-            <div class="card lg:w-96  bg-base-100 shadow-xl ">
-                <div class="card-body">
+        }} className='mt-20' id='work'>
+            <h3 className='text-4xl lg:text-primary text-white text-center font-bold pt-10' > Checkout Some Of My Recent Work... </h3>
+           <div  className="lg:px-32 px-8 py-20">
+           <div  className="grid lg:grid-cols-3 grid-cols-1 gap-20">
+            <div  class="card lg:w-96  bg-base-100 shadow-xl ">
+                <div  class="card-body ">
                 <label for="my-modal-1" className="btn btn-outline btn-primary rounded-full flex justify-evenly"> <img src={details} alt="" /> Click For Details</label>
                 <input type="checkbox" id="my-modal-1" class="modal-toggle" />
                 <div class="modal bg-green-100  shadow-2xl ">
@@ -97,7 +97,7 @@ const Works = () => {
                 </figure>
                 </div>
             </div>
-            <div class="card lg:w-96 bg-base-100 shadow-xl">
+            <div  class="card lg:w-96 bg-base-100 shadow-xl">
                 <div class="card-body">
                 <label for="my-modal-2" className="btn btn-outline btn-primary rounded-full flex justify-evenly"> <img src={details} alt="" /> Click For Details</label>
                 <input type="checkbox" id="my-modal-2" class="modal-toggle" />
@@ -152,7 +152,7 @@ const Works = () => {
                 </div>
                 
                 </div>
-            <div class="card lg:w-96 bg-base-100 shadow-xl">
+            <div  class="card lg:w-96 bg-base-100 shadow-xl">
                 <div class="card-body">
                 <label for="my-modal-3" className="btn btn-outline btn-primary rounded-full flex justify-evenly"> <img src={details} alt="" /> Click For Details</label>
                 <input type="checkbox" id="my-modal-3" class="modal-toggle" />
@@ -200,7 +200,7 @@ const Works = () => {
                 </div>
                 
                 </div>
-            <div class="card lg:w-96 bg-base-100 shadow-xl">
+            <div  class="card lg:w-96 bg-base-100 shadow-xl">
                 <div class="card-body">
                 <label for="my-modal-4" className="btn btn-outline btn-primary rounded-full flex justify-evenly"> <img src={details} alt="" /> Click For Details</label>
                 <input type="checkbox" id="my-modal-4" class="modal-toggle" />
@@ -246,14 +246,14 @@ const Works = () => {
                 
                 
                 </div>
-            <div class="card lg:w-96 bg-base-100 shadow-xl">
+            <div  class="card lg:w-96 bg-base-100 shadow-xl">
                 <div class="card-body">
                 <label for="my-modal-5" className="btn btn-outline btn-primary rounded-full flex justify-evenly"> <img src={details} alt="" /> Click For Details</label>
                 <input type="checkbox" id="my-modal-5" class="modal-toggle" />
                 <div class="modal bg-green-100  shadow-2xl ">
                 <div class="modal-box  lg:w-11/12 lg:max-w-5xl w-full">
-                    <h3 class="font-bold text-2xl text-primary flex gap-2 justify-center items-center "><img src={project} alt="" /> <img src={des} alt=""/>  Project Name: WEEDING CORNER </h3>
-                    <p class="py-4 font-bold flex gap-2 text-gray-600 justify-center items-center text-xl">Description </p>
+                    <h3 class="font-bold text-2xl text-primary flex gap-2 justify-center items-center "><img src={project} alt="" />   Project Name: WEEDING CORNER </h3>
+                    <p class="py-4 font-bold flex gap-2 text-gray-600 justify-center items-center text-xl"> <img src={des} alt=""/> Description </p>
                     <p className='flex gap-2 justify-center items-center'> <img src={check} alt="" /> Implemented Bootstrap Caursol</p>
                     <p className='flex gap-2 justify-center items-center'> <img src={check} alt="" /> Implemented Bootstrap Card </p>
                     <p className='flex gap-2 justify-center items-center'> <img src={check} alt="" /> Implemented Bootstrap Accordion </p>
@@ -286,7 +286,7 @@ const Works = () => {
                    <figure><img className='w-fluid rounded-3xl hover:scale-110 duration-500 mt-6 ' src={wed} alt="Shoes" /></figure>
                 </div>
                 </div>
-            <div class="card lg:w-96 bg-base-100 shadow-xl">
+            <div  class="card lg:w-96 bg-base-100 shadow-xl">
                 <div class="card-body">
                 <label for="my-modal-6" className="btn btn-outline btn-primary rounded-full flex justify-evenly"> <img src={details} alt="" /> Click For Details</label>
                 <input type="checkbox" id="my-modal-6" class="modal-toggle" />

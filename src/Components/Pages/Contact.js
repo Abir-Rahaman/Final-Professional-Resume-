@@ -8,11 +8,11 @@ import email from '../../Assets/img/email.png'
 
 const Contact = () => {
     return (
-        <div class="hero pb-24 mt-24">
+        <div  class="hero py-24 " id='contact'>
             <div style={{
             background:`url(${bg})`,
-        }}  class="hero-content flex-col-reverse  lg:flex-row-reverse  py-20 shadow-2xl lg:px-40 ">
-                <div class="card w-full rounded-2xl ">
+        }}  class=" hero-content flex-col-reverse  lg:flex-row-reverse  py-20 shadow-2xl lg:px-40 ">
+                <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1000" class="card w-full rounded-2xl ">
                         <div class="card-body md:w-full">
                            <form method='POST' action="https://getform.io/f/7067b325-0165-4120-8a11-ee011c81044d">
                            <div class="form-control">
@@ -39,7 +39,7 @@ const Contact = () => {
                            </form>
                         </div>
                         </div>
-               <div className="">
+               <div data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="2000" className="">
                 <img src={email} alt="" />
                 <p className='text-primary font-bold'>Get In Touch</p>
                 <p className=' text-black font-bold '>I'm here to help you with any web application needs you may have.  Just give me a call and feel free to share your ideas with me.Simply  send me an email.
